@@ -2,8 +2,11 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_workshop/StudentAdd.dart';
 import 'package:flutter_workshop/StudentList.dart';
+import 'package:flutter_workshop/map.dart';
+import 'package:flutter_workshop/pokemon/pokemonHome.dart';
 import 'package:flutter_workshop/studentScreen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter_workshop/test.dart';
 
 
 void main()async {
@@ -20,7 +23,7 @@ class MyApp extends StatelessWidget {
 
     return MaterialApp(
       title: 'Flutter Demo',
-      home: StudentScreen()
+      home: MapSample()
     );
   }
 }
